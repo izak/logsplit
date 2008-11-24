@@ -37,7 +37,7 @@ def log(filename, line):
 
 def accesslog(rules, line, defaultlog):
     for domain in rules:
-        m = domain.regexp.match(line)
+        m = domain.regexp.search(line)
         if m is not None:
             domain.logfile.write(line)
             return
