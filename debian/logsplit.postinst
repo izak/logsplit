@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+if test "$1" = "configure"; then
+	chown proxy:proxy /var/log/logsplit
+fi
+
+#DEBHELPER#
