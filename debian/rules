@@ -30,7 +30,7 @@ install: build
 	dh_installdirs
 	# Install the package into debian/logsplit.
 	install    -m 755 logsplit.py   $(CURDIR)/debian/logsplit/usr/bin/logsplit
-	install    -m 644 logsplit.conf $(CURDIR)/debian/logsplit/etc/squid
+	install    -m 644 logsplit.conf $(CURDIR)/debian/logsplit/etc/logsplit
 	
 # Build architecture-independent files here.
 binary-indep: build install

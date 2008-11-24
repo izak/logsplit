@@ -1,7 +1,7 @@
 #
 #	Logrotate fragment for squid.
 #
-/var/log/squid/split/*.log {
+/var/log/logsplit/*.log {
 	daily
 	compress
 	delaycompress

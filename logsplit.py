@@ -3,10 +3,10 @@
 import re, sys, traceback, os, ConfigParser
 from optparse import OptionParser
 
-default_storage = '/var/log/squid/split'
-default_logfile = '/var/log/squid/split/access.default.log'
-default_conf    = '/etc/squid/logsplit.conf'
-error_logfile   = '/var/log/squid/split/error.log'
+default_storage = '/var/log/logsplit'
+default_logfile = '/var/log/logsplit/access.default.log'
+default_conf    = '/etc/logsplit/logsplit.conf'
+error_logfile   = '/var/log/logsplit/error.log'
 
 class LogDomain:
     regexp = None

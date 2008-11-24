@@ -1,2 +1,3 @@
 usr/bin
-etc/squid
+etc/logsplit
+var/log/logsplit
