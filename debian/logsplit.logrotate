@@ -1,5 +1,5 @@
 #
-#	Logrotate fragment for squid.
+#	Logrotate fragment for logsplit.
 #
 /var/log/logsplit/*.log {
 	daily
