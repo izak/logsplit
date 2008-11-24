@@ -1,0 +1,14 @@
+Source: logsplit
+Section: web
+Priority: optional
+Maintainer: Izak Burger <izak@upfrontsystems.co.za>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.7.2
+
+Package: logsplit
+Architecture: all
+Depends: python
+Suggests: squid
+Description: Splits log files according to regex
+ Logsplit splits logfiles by regex. The resulting files can then be used more
+ easily for updating awstats or webalizer.
