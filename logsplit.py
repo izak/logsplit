@@ -41,8 +41,8 @@ def accesslog(rules, line, defaultlog):
         if m is not None:
             domain.logfile.write(line)
             return
-        # Nothing matched, log default log file
-        log(defaultlog, line)
+    # Nothing matched, log default log file
+    log(defaultlog, line)
 
 def parseconfig(cfgfile):
     splitrules = []
