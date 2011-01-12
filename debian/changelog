@@ -1,3 +1,9 @@
+logsplit (2) lucid; urgency=low
+
+  * Flush log file after writing to it.
+
+ -- Izak Burger <izak@upfrontsystems.co.za>  Fri, 03 Dec 2010 10:39:37 +0200
+
 logsplit (1) unstable; urgency=low
 
   * Initial release
