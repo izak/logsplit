@@ -40,6 +40,7 @@ def accesslog(rules, line, defaultlog):
         m = domain.regexp.search(line)
         if m is not None:
             domain.logfile.write(line)
+            domain.logfile.flush()
             return
     # Nothing matched, log default log file
     log(defaultlog, line)
